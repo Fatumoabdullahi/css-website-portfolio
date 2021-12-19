@@ -11,17 +11,51 @@
     box-sizing: border-box;
 }
     
-.header {
-    text-align: center;
+
+html{
+    font-size: 10px;
 }
 body{
     margin: 0;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    line-height: 1.4;
+    line-height: 1.6;
     background-color: var(--tan);
     min-height: 100vh;
+    font-size: 1.6rem;
+    color: black;
 }
+
+.header {
+    border: 1px solid black;
+}
+
+.header-container {
+    text-align: center;
+    margin:0 15rem ;
+}
+
 .title {
     display: inline-block;
+    letter-spacing: 0.5rem;
+    font-size: 3.5rem;
+}
+
+main {
+    border: 1px solid red;
+
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 0 5rem;
+}
+
+.css-card {
+    border: 1px solid white;
+    width: 18rem;
 }
