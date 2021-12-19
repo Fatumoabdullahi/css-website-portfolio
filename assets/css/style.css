@@ -1,61 +1,35 @@
-:root{
-    --almond: #ede0d4ff;
---desert-sand: #e6ccb2ff;
---tan: #ddb892ff;
---cafe-au-lait: #b08968ff;
---coffee: #7f5539ff;
---brown-sugar: #9c6644ff;
-}
-
 * {
-    box-sizing: border-box;
-}
-    
-
-html{
-    font-size: 10px;
-}
-body{
+    padding: 0;
     margin: 0;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    background-color: var(--tan);
-    min-height: 100vh;
-    font-size: 1.6rem;
-    color: black;
+    box-sizing: border-box;
 }
 
-.header {
-    border: 1px solid black;
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.header-container {
-    text-align: center;
-    margin:0 15rem ;
-}
-
-.title {
-    display: inline-block;
-    letter-spacing: 0.5rem;
-    font-size: 3.5rem;
-}
-
-main {
-    border: 1px solid red;
-
-}
-
-.cards-container {
+nav {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: 1px solid black;
-    margin: 0 5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
-.css-card {
-    border: 1px solid white;
-    width: 18rem;
+.logo {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: red;
 }
