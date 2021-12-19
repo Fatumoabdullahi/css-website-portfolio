@@ -1,0 +1,27 @@
+:root{
+    --almond: #ede0d4ff;
+--desert-sand: #e6ccb2ff;
+--tan: #ddb892ff;
+--cafe-au-lait: #b08968ff;
+--coffee: #7f5539ff;
+--brown-sugar: #9c6644ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+    
+.header {
+    text-align: center;
+}
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    background-color: var(--tan);
+    min-height: 100vh;
+}
+.title {
+    display: inline-block;
+}
