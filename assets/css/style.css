@@ -83,6 +83,7 @@ h4 {
 .about-img {
     width: 330px;
     margin-right: 50px;
+    padding-top: 0%;
 }
 .about-text {
     width: 550px;
@@ -220,3 +221,9 @@ h4 {
     margin: 30px auto;
     text-align: center;
  }
+@media (max width: 600px) {
+    .about-me {
+        color: blueviolet;
+        padding-left: 0%;
+    }
+}
