@@ -11,6 +11,7 @@
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-position: center;
+    background-color: lightblue;
 }
 nav {
     display: flex;
@@ -71,13 +72,14 @@ h3 {
     margin-bottom: 50px;
 }
 h4 {
-    color: #fcfc;
+    color: purple;
     letter-spacing: 2px;
     font-size: 20px;
+    padding-top: 0%;
 }
-.about {
+.about-me {
     width: 100%;
-    padding: 100px 0px;
+    padding: 0px 0px;
     background-color: tan;
 }
 .about-img {
